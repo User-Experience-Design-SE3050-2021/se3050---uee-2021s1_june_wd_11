@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff">
+    <item
+        android:id="@+id/bbn_item1"
+        android:color="@color/pink_500"
+        android:icon="@drawable/outline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/bbn_item2"
+        android:color="@color/pink_200"
+        android:icon="@drawable/outline_storage_24"
+        android:title="@string/categories" />
+    <item
+        android:id="@+id/bbn_item3"
+        android:color="@color/pink_500"
+        android:icon="@drawable/outline_cake_24"
+        android:title="@string/customize" />
+    <item
+        android:id="@+id/action4"
+        android:color="@color/pink_200"
+        android:icon="@drawable/outline_shopping_cart_24"
+        android:title="@string/cart" />
+    <item
+        android:id="@+id/action5"
+        android:color="@color/pink_500"
+        android:icon="@drawable/outline_credit_card_24"
+        android:title="@string/checkout" />
+</menu>

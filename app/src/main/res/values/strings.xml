@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CakeHut</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="customize">Customize</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">CheckOut</string>
+</resources>
