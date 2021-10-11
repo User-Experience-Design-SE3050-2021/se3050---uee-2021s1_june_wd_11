@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3155941704",
+    "project_id": "crudapp-16b68",
+    "storage_bucket": "crudapp-16b68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3155941704:android:90b0d56a8bf513a0313b7d",
+        "android_client_info": {
+          "package_name": "com.example.cakehut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3155941704-8e5hbrvsovf7m2c0e0u2tee06h3ek48r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOql5Dj_-GyeGxtT_kV6qAmm6rDwTJviE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3155941704-8e5hbrvsovf7m2c0e0u2tee06h3ek48r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

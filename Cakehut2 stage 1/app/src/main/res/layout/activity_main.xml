@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="9dp"
+        android:layout_height="20dp"
+        android:background="@drawable/back_button"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/navbtn8"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:background="@drawable/profile"
+
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/navbtn"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:background="@drawable/ic_dehaze_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="374dp"
+        android:layout_height="413dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166"
+        app:srcCompat="@drawable/sweets_cakes_white_background_design_star_542889_829x1024" />
+
+    <TextView
+        android:id="@+id/weltxt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabold"
+        android:text="Customize Orders"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/weltxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabold"
+        android:text="LETS CUSTOMIZE YOUR ORDER"
+        android:textColor="@color/pink"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <TextView
+        android:id="@+id/weltxt3"
+        android:layout_width="371dp"
+        android:layout_height="123dp"
+        android:height="130dp"
+        android:fontFamily="@font/cabold"
+        android:text="@string/welt2"
+        android:textAlignment="viewStart"
+        android:textColor="@color/grayfont"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="231dp"
+        android:layout_height="58dp"
+        android:background="@drawable/bgbtn"
+        android:fontFamily="@font/cabold"
+        android:text="GET START"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="24dp"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882"
+        app:strokeColor="@color/black"
+        app:strokeWidth="4dp" />
+
+    <TextView
+        android:id="@+id/txtnav"
+        android:layout_width="403dp"
+        android:layout_height="57dp"
+        android:background="@drawable/component_7__4"
+        android:fontFamily="@font/cabold"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/navbtn1"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_home_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <Button
+        android:id="@+id/navbtn2"
+        android:layout_width="31dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_dns_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <Button
+        android:id="@+id/navbtn3"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:background="@drawable/ic_cake_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/navbtn4"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:background="@drawable/ic_shopping_cart_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/navbtn5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_payment_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

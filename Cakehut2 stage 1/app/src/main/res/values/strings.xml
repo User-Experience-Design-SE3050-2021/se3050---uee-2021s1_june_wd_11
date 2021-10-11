@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cakehut</string>
+
+    <string name="welt2">Why wait any longer? Would you like to buy the cake in your mind instead of premade cake?
+    Then let us make your desired cake in your choice of colors, themes, and flavors.</string>
+    <string name="S1">Select cake weight..</string>
+    <string name="s2">Select main flavour..</string>
+    <string name="s3">Enter your requirements..</string>
+    <string name="s4">Recipient name..</string>
+    <string name="s5">Recipient Address..</string>
+    <string name="con">Continue</string>
+    <string name="upload">"Supports png. jpg. svg. jpeg "</string>
+    <string name="sendanoth">Send Another</string>
+    <string name="ordehistry">Order History</string>
+
+</resources>

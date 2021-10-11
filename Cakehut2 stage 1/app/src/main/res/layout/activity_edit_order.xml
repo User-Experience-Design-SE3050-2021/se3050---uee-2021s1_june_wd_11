@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cake_sweet_pink_cream_garland_girlianda_tort_rozovyi_sladkoe"
+    tools:context=".EditOrder">
+
+    <EditText
+        android:id="@+id/flvrtxt"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="@string/s2"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="31dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_action_name"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@color/pink"
+        android:fontFamily="@font/careguler"
+        android:popupBackground="@color/filepink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <TextView
+        android:id="@+id/weltxt"
+        android:layout_width="279dp"
+        android:layout_height="24dp"
+        android:background="@drawable/paste_your_desired_picture_s_url__"
+        android:fontFamily="@font/cabold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <EditText
+        android:id="@+id/weighttxt"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="@string/S1"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="Date"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667"
+        />
+
+    <EditText
+        android:id="@+id/imgurltxt"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="Month"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784" />
+
+    <TextView
+        android:id="@+id/weltxt10"
+        android:layout_width="279dp"
+        android:layout_height="24dp"
+        android:background="@drawable/delivery_date__"
+        android:fontFamily="@font/cabold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
+
+
+    <TextView
+        android:id="@+id/weltxt7"
+        android:layout_width="279dp"
+        android:layout_height="24dp"
+        android:background="@drawable/recipient_details__"
+        android:fontFamily="@font/cabold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        />
+
+    <EditText
+        android:id="@+id/addrestxt"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="@string/s5"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <EditText
+        android:id="@+id/requirtxt"
+        android:layout_width="346dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="@string/s3"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <EditText
+        android:id="@+id/nametxt"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rectangle_8"
+        android:fontFamily="@font/careguler"
+        android:hint="@string/s4"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/navgray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="31dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_action_name"
+        android:dropDownWidth="wrap_content"
+        android:dropDownSelector="@color/pink"
+        android:fontFamily="@font/careguler"
+        android:popupBackground="@color/filepink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/weltxt4"
+        android:layout_width="295dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/cabold"
+        android:text="Tell us your preferences.."
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/navbtn6"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:background="@drawable/profile"
+
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/navbtn7"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:background="@drawable/ic_dehaze_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/weltxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabold"
+        android:text="Order Details"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/backNav"
+        android:layout_width="9dp"
+        android:layout_height="20dp"
+        android:background="@drawable/back_button"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bgbtn"
+        android:fontFamily="@font/cabold"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="24dp"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="171dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bgbtn"
+        android:fontFamily="@font/cabold"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="24dp"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <Button
+        android:id="@+id/navbtn1"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:background="@drawable/ic_home_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <Button
+        android:id="@+id/navbtn2"
+        android:layout_width="31dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_dns_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
+
+    <Button
+        android:id="@+id/navbtn3"
+        android:layout_width="34dp"
+        android:layout_height="37dp"
+        android:background="@drawable/ic_cake_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <Button
+        android:id="@+id/navbtn4"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        android:background="@drawable/ic_shopping_cart_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/navbtn5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_payment_24px"
+
+        app:backgroundTint="@color/navgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
